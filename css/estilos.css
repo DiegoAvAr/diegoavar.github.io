@@ -21,7 +21,16 @@ nav {
 }
 
 header {
-    background-color: rgb(211, 200, 47)
+    background-color: #FFB9A8
 
 }
 
+a.navegador{
+            background-color: #FFEFDD;
+            color: #ECB980
+}
+a.select{
+    background-color: #CF9656;
+    color: #FFEFDD
+
+}
