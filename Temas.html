@@ -7,6 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css\estilosss.css">
     <title>PáginaWeb</title>
+	
+	<!-- SCRIPT MEDIO PARA LINKS/BOTONES-->
+    <script src=
+    "https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity=
+"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous">
+    </script>
+    <!--FIN SCRIPT-->
+
 </head>
 
 <body >
@@ -23,7 +33,16 @@
 			<ul>
 				<li><a href="https://diegoavar.github.io/">Inicio</a></li>
 				<li><a href="">Temas</a></li>
-				<li><a href="#">Contacto</a></li>
+				 <!--Referencia botón y Script-->
+                <li><a id="btn" href="">Contacto </a></li>
+                <script>
+                        $(document).ready(function () {
+                            $("#btn").click(function () {
+                                alert("diego.aviarr.1@educa.jcyl.es");
+                            });
+                        });
+                    </script>
+                    <!--Fin script-->
 			</ul>
 		</nav>
 
