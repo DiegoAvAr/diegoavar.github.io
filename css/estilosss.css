@@ -109,6 +109,11 @@ nav {
                     text-align: center;
                     padding: 20px;
                     margin-top: 40px;
+		    bottom: 0px;
+ 		    position: absolute;
+    		    left: 0;
+    		    right: 0;
+}
                 }
                     #main-footer p {
                         margin: 0;
