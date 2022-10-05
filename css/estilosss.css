@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+#main-header {
+    background: #FFB9A8;
+	color: #FFE3DD;
+	height: 80px;
+	
+}	
+#main-header2 {
+    background:#FFEFDD;
+	color: #ECB980;
+	height: 30px;
+	position: sticky;
+  top: 0;
+  z-index: 999;
+}	
+	#main-header a {
+		color: #FFE3DD;
+	}
+
+	#main-header2 a {
+		color: #ECB980;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #EC9480;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+
+#trabajo-nav{
+	float: none;
+}
+#trabajo-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+#trabajo-nav ul li {
+	display: inline-block;
+	line-height: 30px;
+}
+#trabajo-nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#trabajo-nav ul li a:hover {
+	background-color: #CF9656;
+	color: #FFEFDD;;
+}
+
+nav {
+	float: right;
+	
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #EC9480;
+				}
+				
+
+				
+                
+                #main-content {
+                    background: white;
+                    width: 90%;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    box-shadow: 0 0 10px rgba(0,0,0,.1);
+                }
+                
+                    #main-content header,
+                    #main-content .content {
+                        padding: 40px;
+                    }
+                
+                
+                #main-footer {
+                    background: #FFB9A8;
+                    color: #FFE3DD;
+                    text-align: center;
+                    padding: 20px;
+					margin-top: 40px;
+					
+					
+					bottom: 0;
+					left: 0;
+					right: 0;
+					
+                }
+                    #main-footer p {
+                        margin: 0;
+                    }
+                    
+                    #main-footer a {
+                        color: #FFE3DD;
+                    }
+/* Incio trabajos herramientas */
+                    a.navegador{
+                        background-color: #FFEFDD;
+                        color: #ECB980;
+                        font-weight: 700;
+		
+            }
+            a.select{
+                background-color: #CF9656;
+                color: #FFEFDD;
+                font-weight: 700;
+                font-size: 1.2em;
+            }
+            
