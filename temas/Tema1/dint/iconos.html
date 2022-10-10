@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <title>Iconos Material Designer</title>
@@ -12,25 +13,72 @@
     .material-icons.md-fondo { background-color: #ffd6a8 }
     </style>
      <link rel="stylesheet" href="..\..\..\css\estilosss.css">
+    
+       <!-- SCRIPT MEDIO PARA LINKS/BOTONES-->
+    <script src=
+    "https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity=
+"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous">
+    </script>
+    
 </head>
 <body>
         <header id="main-header">
-                <!--       aun no hay ruta      -->
-                <a id="logo-header" href="https://diegoavar.github.io/">
-                    <span class="site-name">DINT Documentación</span>
-                    <span class="site-desc"> Diego Ávila Arroyo </span>
-                </a>
+        <!--       aun no hay ruta      -->
+        <a id="logo-header" href="https://diegoavar.github.io/">
+             
+            <span class="site-name"><img src="icono.png" width="40" height="40" style="float: left"  > &nbsp; DINT Documentación   </span>
+           <span class="site-desc"> &nbsp; &nbsp; Diego Ávila Arroyo </span>
         
-                <nav>
-                    <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="..\..\..\Temas.html">Temas</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </nav>
-        
-            </header>
-
+        </a>
+            
+            
+            <nav>
+            <ul>
+                <li><a href="https://diegoavar.github.io/">Inicio</a></li>
+                <li><a href="..\..\Temas.html">Temas</a></li>
+                
+                
+                 <!--Referencia botón y Script-->
+                <li><a id="btn" href="">Contacto </a></li>
+                <script>
+                        $(document).ready(function () {
+                            $("#btn").click(function () {
+                                alert("diego.aviarr.1@educa.jcyl.es");
+                            });
+                        });
+                    </script>
+                    <!--Fin script-->
+                
+                
+                
+            </ul>
+        </nav>
+            
+            
+             </header>
+        <header id="main-header2">
+           
+    
+            <nav id="trabajo-nav">
+                <ul>
+                     <li><a href="TEMA1.html" class="selected">Inicio</a></li>
+                    <li><a href="trabajos.html">Trabajos</a></li>
+                    <li><a href="Herramientas.html" >Herramientas</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+    
+     <section id="main-content">
+        <article>
+            
+                <header>
+                    <h1>TEMA 1</h1>
+                </header>
+ <div class="content">
+     
     <h1>Url material icons</h1>
     <p>
         &lt; link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -55,5 +103,11 @@
     <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 0 24 24" width="45px" fill="#000000"><path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none"/><path d="M9 21h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.58 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2zM9 9l4.34-4.34L12 10h9v2l-3 7H9V9zM1 9h4v12H1z"/></svg>
     <p>Imagen PNG</p>
     <img src="1x\outline_thumb_up_black_24dp.png" alt="a">
+        </div>
+        </article>
+    </section>
+ <footer id="main-footer">
+        <p>&copy; 2022 diegoavar@educa.jcyl.es</a></p>
+    </footer> <!-- Final del footer -->
 </body>
 </html>
