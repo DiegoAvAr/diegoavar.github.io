@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.eol":"\n",
+    // CONFIGURACIÓN PARA PHP
+    "php.validate.executablePath": "C:\\xampp\\htdocs\\php\\php.exe",
+    "php.validate.run": "onType",
+    "php.executablePath": "C:\\xampp\\htdocs\\php\\php.exe",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay"
+}
